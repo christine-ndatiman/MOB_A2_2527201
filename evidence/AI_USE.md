@@ -12,10 +12,10 @@ My name is NDATIMANA Christine.
 AI-assisted tools were used as development support for this assignment. They were used to:
 
 - review assignment requirements and convert them into implementation checklists;
-- help rename and personalize the starter project for NDATIMANA Christine;
-- troubleshoot Expo SDK, Expo Go, EAS CLI and Windows PowerShell command issues;
-- diagnose and fix broken bottom-tab icons;
-- review React Native / Expo / TypeScript configuration;
+- help rename and personalize the starter project;
+- troubleshoot Expo SDK, Expo Go, EAS CLI and Windows PowerShell issues;
+- diagnose and fix bottom-tab icon/font loading problems;
+- review React Native, Expo and TypeScript configuration;
 - suggest validation, navigation, AsyncStorage and media-handling checks;
 - assist with README and evidence-document drafting;
 - help interpret build and dependency error messages.
@@ -24,27 +24,35 @@ AI-assisted tools were used as development support for this assignment. They wer
 
 AI assistance did not replace the student's responsibility to:
 
-- provide genuine personal information, skills, education and project content;
+- provide accurate personal information and portfolio content;
 - understand the submitted source code;
 - run and verify the application;
 - perform physical-device testing;
 - install and test the final standalone APK;
 - record the final demonstration video;
-- submit accurate GitHub, release, APK and commit links.
+- submit accurate GitHub, release, APK and commit information.
 
-## Current testing disclosure
+## Final testing disclosure
 
-At the time this file was prepared, functional testing in Expo Go had passed for the tested application flows.
+The final Android APK was built and installed successfully on a physical Android device:
 
-The standalone APK had not yet been installed because the EAS build was still pending/queued. Therefore:
+- APK file tested: `application-7e1575f2-4075-453a-80c0-8a0682fc6cf6.apk`
+- standalone APK installation: PASSED
+- launch without Expo Go: PASSED
+- bottom-tab navigation: PASSED
+- project detail navigation: PASSED
+- invalid profile validation: PASSED
+- valid profile save: PASSED
+- AsyncStorage persistence after restart: PASSED
+- gallery/camera selection and preview: PASSED
+- image replacement and removal: PASSED
+- verification-card image preview: PASSED
+- core app operation in Airplane Mode: PASSED
 
-- standalone APK installation: NOT TESTED;
-- launch without Expo Go: NOT TESTED;
-- installed-APK persistence test: NOT TESTED;
-- installed-APK Airplane Mode test: NOT TESTED.
+All reported final tests passed.
 
-These items must be updated only after the APK is available and actually tested.
+Phone model and Android version are not included here because they were not provided in the current record.
 
 ## Responsibility
 
-I understand that I am responsible for the accuracy of the submitted work and for ensuring that all final evidence reflects tests that were actually performed.
+I understand that I am responsible for the accuracy of the submitted work and for ensuring that the final evidence reflects tests that were actually performed.
