@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "NCPortfolio",
+    "slug": "ncportfolio",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "rw.ac.ines.ug2527201.ncportfolio",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F6F7F4"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "NCPortfolio needs photo-library access so you can choose a profile picture.",
+          "cameraPermission": "NCPortfolio needs camera access so you can take a profile picture."
+        }
+      ],
+      "expo-status-bar",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "42dc3ce8-da3c-4e8d-bcb6-ee4a820f5818"
+      }
+    },
+    "owner": "christine1"
+  }
+}
